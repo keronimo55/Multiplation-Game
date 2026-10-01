@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/game.css', v='5') }}">
+
+    <title>Oyun</title>
+</head>
+
+<body>
+    <span id="dontlookthatt">{{time}}</span>
+    <div class="time-label"><span class="minute">00</span>:<span class="second">00</span></div>
+    <div class="timer">
+        <div class="time"></div>
+    </div>
+    <div class="question">
+        <div class="number-one"></div>
+        <span class="process"></span>
+        <div class="number-two"></div>
+    </div>
+
+    <div id="finished">
+        <h2>TIME OUT</h2>
+        <a href="/">Menu</a>
+    </div>
+    
+    <div id="dark"></div>
+
+
+<input class="answer">
+    
+
+
+    
+</body>
+
+<script src="{{ url_for('static',filename='js/game.js') }}"></script>
+
+
+
+</html>
