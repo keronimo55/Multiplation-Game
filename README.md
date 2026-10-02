@@ -5,3 +5,5 @@
 Problems come randomly and continuously until timeout.
 
 The numbers in problems are one-or-two digit
+
+"The Code(especially timer ) can run when tab is open but not focused
